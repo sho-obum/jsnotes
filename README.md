@@ -110,6 +110,14 @@ function b() {
 }
 ```
 
+```javascript
+b();
+
+function b() {
+	console.log('Hello SHubham');
+}
+```
+
 When parser runs through code it recognizes where you created variables and functions and it sets up memory space for them. So before your code begins to be executed, JS engine has already set aside memory space for all the variables and functions you created. When the code begins to execute line by line it can access it.
 
 However, for variables JS engine puts a placeholder `undefined`, because it doesn't know what it's value will ultimately end up being until it starts executing that line of
